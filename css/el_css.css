@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  background-image: url(../Image/el_fondo.jpg);
+}
+
+.contenedor{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caja{
+  color: antiquewhite;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
