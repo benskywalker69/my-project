@@ -3,14 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/foundation.css">
-  <title>Bio-Journal</title>
+  <link rel="stylesheet" href="css/el_css.css" >
+  <!-- <link rel="stylesheet" href="css/foundation.css"> -->
+  <title>My Internet Bio Journal</title>
 </head>
+
 <body>
-  <div class="container">
-    <h1>so pota madre</h1>
-    <input type="file">
-    <button class="button button-group hollow success">Press Me</button>
+  <div id="animales" class="contenedor">
+    <div id="caja" class="caja">
+    
+      <div class="campo">
+        <h3>Nombre del animal</h3>
+        <input id="nombre_del_animal" placeholder="Registra el nombre">
+      </div>
+      
+      <div class="campo">
+        <h3>Escoge una foto</h3>
+        <input id="foto_del_animal" type="file">
+      </div>
+
+      <div class="campo">
+        <h3>Descripción chida</h3>
+        <!-- <input id="descripcion_del_animal" placeholder="Información interesante" type="text"> -->
+        <textarea placeholder="Información interesante" rows="6" cols="40"></textarea>
+      </div>
+
+    </div>
   </div>
 </body>
 </html>
